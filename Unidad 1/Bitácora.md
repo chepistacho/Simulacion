@@ -44,6 +44,6 @@ Esta la alcanzamos a revisar en clase, entonces voy a dejar aquí algunas cosas 
 - Siempre instanciar la clase por fuera de los métodos **(preguntar al profe el por qué, pues se me olvidó camino a casa)**
 - Se puede observar la distribución aleatoria desde el mismo dibujo. Si bien en el ejemplo de la clase se veía una clara tendencia hacia la derecha y abajo, lo dejé corriendo un rato en mi computador y muestra un comportamiento más uniforme.
 
-Pregunta que me surgió: ¿Una partida de "El Juego de la Vida de John Conway" puede ser considerada como arte generativo?
+Pregunta que me surgió: ¿Una partida de "El Juego de la Vida" de John Conway puede ser considerada como arte generativo?
 
 
