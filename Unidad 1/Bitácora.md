@@ -47,3 +47,38 @@ Esta la alcanzamos a revisar en clase, entonces voy a dejar aquí algunas cosas 
 Pregunta que me surgió: ¿Una partida de "El Juego de la Vida" de John Conway puede ser considerada como arte generativo?
 
 
+# Actividad 3
+- La diferencia, es que, en una distribución uniforme, todas las opciones contempladas tienen la misma probabilidad de "aparecer" (no se me ocurre otra palabra), mientras que en una distribución no uniforme las probabilidades están más acumuladas hacia ciertos resultados.
+-Intenté con una distribución normal, pero no me dio el coco para la sintaxis, por lo que el resultado con este código
+   ``` js
+  step() {
+    const choice = floor(randomGaussian(0, 0));
+    if (choice == 0) {
+      this.x++;
+    } else if (choice == 1) {
+      this.x--;
+    } else if (choice == 2) {
+      this.y++;
+    } else {
+      this.y--;
+    }
+  }
+`  
+Fue el sguiente:  
+<img width="505" height="181" alt="image" src="https://github.com/user-attachments/assets/612e0e3b-ec96-473d-ad3f-fd09dbdd4a55" />
+
+De las que mostró el profe, la mejr opción fue con los rangos, dejando de redondear el resultado y dándole más peso al que crrespondía a la variación positiva en el eje X.
+
+# Actividad 4
+Aquí cambié un poco la cosa. Por un lado, le metí mano al color, para que los valores RGB dependieran de la **distribución normal**, pero también hice que el radio del círculo dependiera de ese `x` mediante la fúrmula `10000/x`, dando como resultado una forma que parece com un túnel:  
+<img width="750" height="716" alt="image" src="https://github.com/user-attachments/assets/cd327862-e0fc-4ab9-85d3-cdd6d3b5d8f5" />
+Aquí se aprecia la distribución normal, pues podemos ver cómo se amontonan más círculos con el radio más pequeño, es decir, cuando la `x`en la fórmula `10000/x` es más grande. 
+El código es este:  
+``` js
+function draw() {
+  // A normal distribution with mean 320 and standard deviation 60
+  let x = randomGaussian(320, 100);
+  noStroke();
+  fill(400-x, 360-x, 420-x, 5);
+  circle(width/2, height/2, 100000/x);
+}  
