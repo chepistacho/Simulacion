@@ -71,7 +71,7 @@ De las que mostró el profe, la mejr opción fue con los rangos, dejando de redo
 
 # Actividad 4
 Aquí cambié un poco la cosa. Por un lado, le metí mano al color, para que los valores RGB dependieran de la **distribución normal**, pero también hice que el radio del círculo dependiera de ese `x` mediante la fúrmula `10000/x`, dando como resultado una forma que parece com un túnel:  
-<img width="750" height="716" alt="image" src="https://github.com/user-attachments/assets/cd327862-e0fc-4ab9-85d3-cdd6d3b5d8f5" />
+<img width="750" height="716" alt="image" src="https://github.com/user-attachments/assets/cd327862-e0fc-4ab9-85d3-cdd6d3b5d8f5" />  
 Aquí se aprecia la distribución normal, pues podemos ver cómo se amontonan más círculos con el radio más pequeño, es decir, cuando la `x`en la fórmula `10000/x` es más grande. 
 El código es este:  
 ``` js
@@ -81,4 +81,10 @@ function draw() {
   noStroke();
   fill(400-x, 360-x, 420-x, 5);
   circle(width/2, height/2, 100000/x);
-}  
+}
+```
+# Actividad 5  
+Primero que nada, es importante entender qué es un vuelo de Levy.  
+Según lo que entendí (me tocó confirmar con IA) es un patrón en el que, a diferencia de una caminata aleatoria, va por "regiones" (o al menos así lo entendí yo). Da pasos alrededor de un area y, en algunas ocasiones, pega un brinco largo, donde vuelve a dar pasos alrededor, y así sucesivamente. El cálculo de los pasos debe ser aleatorio, con mucha probabilidad de que el paso sea pequeño, y poca probabilidad de que sea un paso largo.
+Para el primer punto de esta actividad, voy a usar el ejercicio de la caminata aleatoria, y voy a cambiar los parámetros por los que están en el ejemplo del vuelo de Levy. Lo que espero que pase es una representación visual de este concepto.  
+Lo que intenté fue introducir una variable aleatoria, encargada de manejar si el caminante salta o se queda en la msima región. Luego le pasé el código a un agente de IA, el cual me dijo que no era precisamente un vuelo de Lévy.
