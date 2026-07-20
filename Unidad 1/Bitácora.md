@@ -86,5 +86,71 @@ function draw() {
 # Actividad 5  
 Primero que nada, es importante entender qué es un vuelo de Levy.  
 Según lo que entendí (me tocó confirmar con IA) es un patrón en el que, a diferencia de una caminata aleatoria, va por "regiones" (o al menos así lo entendí yo). Da pasos alrededor de un area y, en algunas ocasiones, pega un brinco largo, donde vuelve a dar pasos alrededor, y así sucesivamente. El cálculo de los pasos debe ser aleatorio, con mucha probabilidad de que el paso sea pequeño, y poca probabilidad de que sea un paso largo.
-Para el primer punto de esta actividad, voy a usar el ejercicio de la caminata aleatoria, y voy a cambiar los parámetros por los que están en el ejemplo del vuelo de Levy. Lo que espero que pase es una representación visual de este concepto.  
-Lo que intenté fue introducir una variable aleatoria, encargada de manejar si el caminante salta o se queda en la msima región. Luego le pasé el código a un agente de IA, el cual me dijo que no era precisamente un vuelo de Lévy.
+Para el primer punto de esta actividad, voy a usar el ejercicio de la caminata aleatoria, y voy a cambiar los parámetros para que los pasos puedan ser grandes con una probabilidad más baja que los pasos cortos. También pensé que sería interesante si los colores del caminante cambiaran junto con su posición y, realmente, me gustó el resultado. Los pasos los calculé con el método Monte Carlo mostrado en el texto guía, cambiando algunas cosas en función de un resultado más coherente con el concepto de vuelo de Lévy.  
+Esta técnica la usé para no terminar usando el machetazo del inicio, pues, como dice en el texto, termina siendo muy cesgado y no da lugar a resultados intermedios, mientras que el método Monte Carlo daba lugar a una gama más amplia de resultados.  
+``` js
+// The Nature of Code
+// Daniel Shiffman
+// http://natureofcode.com
+
+let walker;
+
+function setup() {
+  createCanvas(640, 240);
+  walker = new Walker();
+  background(255);
+}
+
+function draw() {
+  walker.step();
+  walker.show();
+}
+
+class Walker {
+  constructor() {
+    this.x = width / 2;
+    this.y = height / 2;
+  }
+
+  show() {
+    stroke(this.x, this.y, random(255));
+    point(this.x, this.y);
+  }
+
+  step() {
+    let stepsize;
+    const choice = random(1);
+    while (true){
+      let r1 = random(1, 50);
+      let probability = 1/(r1*r1);
+      let r2 = random(1);
+      if (r2 < probability){
+        stepsize = r1;
+        break;
+      }
+    }
+    let dirX = random(-1, 1);
+    let dirY = random(-1, 1);
+
+    this.x += dirX * stepsize;
+    this.y += dirY * stepsize;
+    
+    if (this.x < 0){
+      this.x = 640
+    }
+    else if (this.x > 640){
+      this.x = 0;
+    }
+    if (this.y < 0){
+      this.y = 240
+    }
+    else if (this.y > 240){
+      this.y = 0
+    }
+  }
+}
+```
+Lo que espero es tener un montón de manchas coloridas distribuídas por todo el lienzo, siendo más las grandes que las pequeñas, habiendo saltos poco frecuentes comparados con los pasos inmediatos del caminante.  
+<img width="800" height="297" alt="image" src="https://github.com/user-attachments/assets/ed0dd436-8b09-4866-ba48-c92284d583b8" />  
+
+
