@@ -153,4 +153,7 @@ class Walker {
 Lo que espero es tener un montón de manchas coloridas distribuídas por todo el lienzo, siendo más las grandes que las pequeñas, habiendo saltos poco frecuentes comparados con los pasos inmediatos del caminante.  
 <img width="800" height="297" alt="image" src="https://github.com/user-attachments/assets/ed0dd436-8b09-4866-ba48-c92284d583b8" />  
 
+# Actividad 7 (reto de diseño)  
+Para esto modifiqué el código del vuelo de Lévy, pues era el que más acorde vi a los momentos del enunciado, y la interacción la puse en la parte del método Monte Carlo, dejando que el primer número sea elegido mediante la posición del mouse, y que el tercer parámetro del color, que antes era aleatorio fuera definido con la posción vertical del mouse. Ese, al menos, es mi punto de partida.
+
 
