@@ -154,6 +154,8 @@ Lo que espero es tener un montón de manchas coloridas distribuídas por todo el
 <img width="800" height="297" alt="image" src="https://github.com/user-attachments/assets/ed0dd436-8b09-4866-ba48-c92284d583b8" />  
 
 # Actividad 7 (reto de diseño)  
-Para esto modifiqué el código del vuelo de Lévy, pues era el que más acorde vi a los momentos del enunciado, y la interacción la puse en la parte del método Monte Carlo, dejando que el primer número sea elegido mediante la posición del mouse, y que el tercer parámetro del color, que antes era aleatorio fuera definido con la posción vertical del mouse. Ese, al menos, es mi punto de partida.
+Para esto modifiqué el código del vuelo de Lévy, pues era el que más acorde vi a los momentos del enunciado, y la interacción la puse en la parte del método Monte Carlo, dejando que el primer número sea elegido mediante la posición del mouse, y que el tercer parámetro del color, que antes era aleatorio fuera definido con la posción vertical del mouse. Ese, al menos, es mi punto de partida, y queda como anillo al dedo, pues cuando vi mi primer intento de este ejercicio me daba vibras de una pintura en aerosol, por lo que también tengo un concepto por ahí de paso: **arte urbano**.  
+<img width="801" height="305" alt="image" src="https://github.com/user-attachments/assets/ef48f4cd-37b1-418c-b6fd-de1f6db456e9" />  
+Ahora bien, muy bonito y todo, pero ahí solo tiene vuelo de Lévy y parte de una caminata aleatoria de toda la vida, pero aún tengo que meterle más cambios de probabilidad, quizás otros elementos, y bastante interacción relacionada con lo que pide el enunciado.
 
 
