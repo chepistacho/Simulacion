@@ -164,7 +164,7 @@ Después de echarle mucha cabeza, llegué a una idea que finalmente me convenci�
 4. Aquí se implementaría el vuelo de Lévy tradicional, que 100% depende de la aleatoriedad, mostrando saltos ocasionales.
 5. Finalmente, el usuario termina controlando un parámetro, que sería lo que tenía planteado desde el principio.
 Para esto me apoyé de la IA, con el fin de refrescar la lógica de una máquina de estados que, además, funcionara con tiempo y no con botones.
-Con esto claro, me puse manos a la obra y no salió bien. Lo primero fue que el walker estaba de colores, y no había pensado en cómo alterar ese valor dependiendo del estado, pero ya luego corrijo eso. El comportamiento del primer momento (estado) va bien, pero al segundo se terminó tirando para la izquierda:
+Con esto claro, me puse manos a la obra y no salió bien. Lo primero fue que el walker estaba de colores, y no había pensado en cómo alterar ese valor dependiendo del estado, pero ya luego corrijo eso. El comportamiento del primer momento (estado) va bien, pero al segundo se terminó tirando para la izquierda:  
 <img width="773" height="285" alt="image" src="https://github.com/user-attachments/assets/496198a2-720b-4d00-b2a1-4ecc3adc5b86" />  
 Mañana me pondré a corregir esos errores, y terminaré el resto de los estados.
 
