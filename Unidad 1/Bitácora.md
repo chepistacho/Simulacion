@@ -165,7 +165,38 @@ Después de echarle mucha cabeza, llegué a una idea que finalmente me convenci�
 5. Finalmente, el usuario termina controlando un parámetro, que sería lo que tenía planteado desde el principio.
 Para esto me apoyé de la IA, con el fin de refrescar la lógica de una máquina de estados que, además, funcionara con tiempo y no con botones.
 Con esto claro, me puse manos a la obra y no salió bien. Lo primero fue que el walker estaba de colores, y no había pensado en cómo alterar ese valor dependiendo del estado, pero ya luego corrijo eso. El comportamiento del primer momento (estado) va bien, pero al segundo se terminó tirando para la izquierda:  
-<img width="773" height="285" alt="image" src="https://github.com/user-attachments/assets/496198a2-720b-4d00-b2a1-4ecc3adc5b86" />  
-Mañana me pondré a corregir esos errores, y terminaré el resto de los estados.
+<img width="773" height="285" alt="image" src="https://github.com/user-attachments/assets/496198a2-720b-4d00-b2a1-4ecc3adc5b86" />
+
+Mañana me pondré a corregir esos errores, y terminaré el resto de los estados.  
+Cuando desperté esta mañana, se me ocurrió una idea para implementar (poco oportuna, pero interesante), y era que los colores representen una evolución del arte, pasando del arte rupestre a las obras urbanas contemporáneas. Ahora bien, la idea principal la podía llegar a hacer casi solo, pero ahora sí me voy a apoyar un poco más en Gemini para tener más clara la lógica de variables, dónde asignarlas y cómo actualizarlas.  
+Primero voy a corregir lo que me quedó faltando ayer, y ya después implementaré las nuevas ideas.  
+Finalmente se me ocurrió una buena idea para el tercer momento, y la idea es seguir con la evolución del arte, pasando del rojizo del arte rupestre al blanco y negro de las fotografías de inicios/mediados del siglo pasado (un salto enorme, pero siento que cumple), dejando el movimiento del walker, pero con el color en gama de grises, dictado por una distribución normal.  
+Aquí el primer ensayo de esta vaina:  
+<img width="805" height="310" alt="image" src="https://github.com/user-attachments/assets/dabeeb3c-6eb3-4df6-8a2d-4cf8f4ecb92a" />  
+No es lo más bonito, pero al menos el funcionamiento es el esperado. Las formas las haré algo más interesantes cuando termine la lógica.  
+Finalmente, después de varios intentos, saqué algo presentable, que radica más en mostrar el recorrido que en un resultado. Honestamente, me gustó.  
+<img width="823" height="320" alt="image" src="https://github.com/user-attachments/assets/33b2b922-53a2-4ff0-9eb5-86385570501a" />  
+Para una breve explicación: el trazo rojo (que no se alcanza a ver en el pantallazo) es el primer momento, que representa una pintura rupestre en una pared de piedra, y su comportamiento es de caminata aleatoria total, como si estuviera perdido esperando encontrar algo. Luego va un arte más sofisticado, pero algo estricto, representado por los cuadrados en tonos de verdes y azules, con un movimiento de caminata aleatoria con preferencia hacia arriba. A esto le sigue la llegada de la cámara, con el famoso "mataron el arte", representado por círculos grises que recorren la pantalla. Por último está el arte moderno, representado con colores diversos y puntos pequeños, que luego, cuando pas a la parte de interacción, se vuelven puntos grandes que interactúan como expliqué anteriormente. El programa se queda en este último estado para que el visitante de la feria pueda interactuar libremente, sin pensar en el tiempo que le queda antes de volver a la pintura rupestre.  
+  
+**Mi hermoso proyecto: https://editor.p5js.org/chepistacho/sketches/filjPAYO4**  
+  
+Finalmente he de decir que pensé que usaría más la IA, pero resulta que igual eran cosas que trabajamos en clase, entonces su uso se limitó al recorderis que mencioné antes y solución de errores (casi siempre eran llaves que yo no veía).
+## Autoevaluación  
+### Criterio 1: Encargo completo
+Si por "un mismo visual" nos referimos a que siempre están presentes, no. Pero si nos referimos a que está en el mismo proyecto y en algún momento conviven varios momentos en la pantalla, entonces sí. Esto se evidencia en el último párrafo de la bitácora antes de la autoevaluación, donde explico cada momento, tanto desde la técnica como desde el significado. Igualmente, durante toda la documentación de la actividad estuve intenso diciendo lo matemático de cada uno.  
+
+### Criterio 2: Diseño con intención
+Este sí, 100%. A lo largo de la actividad casi que solo hablé de cómo implementé la caminata aleatoria en el primer momento, la distribución normal para los grises del tercer momento, y el vuelo de Lévy para los últimos dos momentos.  
+
+### Criterio 3: Interacción significativa
+Quizás una respuesta similar a la del primer criterio. Como tal sí cumple en modificar la probabilidad, pero solo en un momento. Ahora bien, ese mismo momento funciona 100% sin interacción, pero el usuario sí influye significativamente en ese momento.  
+
+### Criterio 4: Prototipo funcional
+También, corre perfectamente y se puede apreciar en el link que puse ahí arribita. 
+
+### Criterio 5: Proceso documentado
+Sip, toda la parte de la actividad 7 terminó siendo un diario de la evolución de este reto. Desde la idea hasta el resultado final, incluso reconociendo cuando no tenía ideas, o cuando ameritaba algún cambio en las visuales. También está evidenciado explícitamente el uso que le di a la IA en este proyecto.
+
+
 
 
