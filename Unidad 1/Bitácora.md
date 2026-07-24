@@ -156,6 +156,16 @@ Lo que espero es tener un montón de manchas coloridas distribuídas por todo el
 # Actividad 7 (reto de diseño)  
 Para esto modifiqué el código del vuelo de Lévy, pues era el que más acorde vi a los momentos del enunciado, y la interacción la puse en la parte del método Monte Carlo, dejando que el primer número sea elegido mediante la posición del mouse, y que el tercer parámetro del color, que antes era aleatorio fuera definido con la posción vertical del mouse. Ese, al menos, es mi punto de partida, y queda como anillo al dedo, pues cuando vi mi primer intento de este ejercicio me daba vibras de una pintura en aerosol, por lo que también tengo un concepto por ahí de paso: **arte urbano**.  
 <img width="801" height="305" alt="image" src="https://github.com/user-attachments/assets/ef48f4cd-37b1-418c-b6fd-de1f6db456e9" />  
-Ahora bien, muy bonito y todo, pero ahí solo tiene vuelo de Lévy y parte de una caminata aleatoria de toda la vida, pero aún tengo que meterle más cambios de probabilidad, quizás otros elementos, y bastante interacción relacionada con lo que pide el enunciado.
+Ahora bien, muy bonito y todo, pero ahí solo tiene vuelo de Lévy y parte de una caminata aleatoria de toda la vida, pero aún tengo que meterle más cambios de probabilidad, quizás otros elementos, y bastante interacción relacionada con lo que pide el enunciado.  
+Después de echarle mucha cabeza, llegué a una idea que finalmente me convenció, y que sería orquestrada como una canción, en la que los instrumentos se van acoplando poco a poco para dar una obra enorme:  
+1. Al principio se vería un caminante aleatorio normal, con poco color, caminando en su zona.
+2. Después de un tiempo, el caminante empezaría a mostrar una tendencia hacia algún lado, pero sin dejar de moverse en todas las direcciones.
+3. En el tercer momento aún no sé qué poner, pero lo documentaré aquí si se me ocurre algo. Se me ocurre empezar a meter color y/o tamaño aquí, pero, nuevamente, aún es muy abstracta la idea.
+4. Aquí se implementaría el vuelo de Lévy tradicional, que 100% depende de la aleatoriedad, mostrando saltos ocasionales.
+5. Finalmente, el usuario termina controlando un parámetro, que sería lo que tenía planteado desde el principio.
+Para esto me apoyé de la IA, con el fin de refrescar la lógica de una máquina de estados que, además, funcionara con tiempo y no con botones.
+Con esto claro, me puse manos a la obra y no salió bien. Lo primero fue que el walker estaba de colores, y no había pensado en cómo alterar ese valor dependiendo del estado, pero ya luego corrijo eso. El comportamiento del primer momento (estado) va bien, pero al segundo se terminó tirando para la izquierda:
+<img width="773" height="285" alt="image" src="https://github.com/user-attachments/assets/496198a2-720b-4d00-b2a1-4ecc3adc5b86" />
+Mañana me pondré a corregir esos errores, y terminaré el resto de los estados.
 
 
