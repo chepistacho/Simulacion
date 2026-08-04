@@ -45,7 +45,21 @@ Para solucionar esto, lo más sensato era que las partículas que no hayan muert
 Finalmente, después de gastarme todos mis intentos del plan pro de Gemini, conseguí lo que buscaba. La verdad, esa idea de amontonarlos a todos dio resultados bastante interesantes hacia el final de casi cada ejecución, por lo que no solo resolvió mi problema, sino que le dio más dinamismo a la simulación.  
 Quiero dejar aquí este resultado en específico, donde solo quedó una partícula de un equipo, lo que me pareció muy particular (no pun intended):  
 <img width="740" height="642" alt="image" src="https://github.com/user-attachments/assets/5a0d7136-237f-4a5d-9d93-3d65ec841de0" />  
-**El link:** https://editor.p5js.org/chepistacho/full/mFWxWVeSQ
+**El link:** https://editor.p5js.org/chepistacho/full/mFWxWVeSQ  
+## Ficha breve:
+Busco mostrar la tensión entre varias facciones, cada una con su ejército y un comportamiento distinto. Todos los ejércitos, a excepción de los balncos, comienzan con una cantidad equilibrada en un punto distinto del canvas, lo que permite que cada resultado sea distinto.  
+Además, el comportamiento de los azules y los rojos siempre será el mismo entre ellos (persecución), mientras que el resto de valores siempre cambia en cada ejecución, lo que no solo permite mayor variabilidad, sino que también refuerza la idea de que no todas las guerras acaban igual.  
+
+## Autoevaluación:
+| Criterio | Valoración | Observación |
+|----------|------------|-------------|
+|La intención es clara y perceptible en el comportamiento. | 5.0 | Creo que está todo bien pensado, en especial la parte de que las partículas tengan una vida definida, lo que hace que se evidencie que se matan entre ellas. |
+| Los tipos, cantidades, matriz y parámetros están justificados desde la intención. | 5.0 | Sí, quería representar que siempre, independiente de la guerra, hay dos bandos con historia, y que quizás no haya tanta gente dispuesta a adoptar la mentalidad de "morir por su equipo/ideales". |
+| Comprendo y puedo modificar el funcionamiento técnico del sistema. | 4.0 | Seh, si bien hice prácticamente todo el código apoyado en la IA, puedo entender gran parte de lo que hace el código, desde la teoría (funcionamiento) hasta la estructura del código). |
+| El sistema produce variaciones con una identidad reconocible. | 5.0 | Sí, el sistema siempre deja los rastros de las peleas entre partículas, además de que siempre queda el ganador en el centro o, en su defecto, un anillo conformado por los que sobrevivieron). |
+| Experimenté, comparé, seleccioné y descarté con criterios claros. | 5.0 | Durante toda la actividad 5 me dediqué casi que exclusivamente a hacer ensayo y error hasta lograr un resultado que me gustara, adoptando comportamientos que se me ocurrían y descartando aquellos que no funcionaban bien (la onda expansiva, por ejemplo). |
+| Puedo distinguir y sustentar lo diseñado y lo emergente. | 5.0 | Totalmente. Todo lo que está diseñado también está escrito en la bitácora, y lo emergente también está, de algún u otro modo planeado. |
+| **Total** | 4.8 |
 
 
 
