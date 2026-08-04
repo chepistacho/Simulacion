@@ -41,7 +41,12 @@ Sin embargo, para que terminara de cuadrar la idea, era necesario que las partí
 Ahora bien, el concepto iba por buen camino. Si bien cada ejecución es corta, creo que se entiende lo que está pasando (o al menos es coherente con el concepto de "guerra"). Sin embargo, esto mostró un nuevo problema, y era la quietud provocada por un sistema en equilibrio.  
 <img width="541" height="548" alt="image" src="https://github.com/user-attachments/assets/aa792d2e-4b85-4665-a626-19d470cab267" />
 
-Para solucionar esto, lo más sensato era que las partículas que no hayan muerto después de 5 segundos (lo que dura en promedio el sistema en estabilizarse) se dirigirán hacia el centro, de manera que siempre haya muerte. Además, si solo queda un equipo, se ve mejor el ganador en el centro que disperso por el mundo.
+Para solucionar esto, lo más sensato era que las partículas que no hayan muerto después de 5 segundos (lo que dura en promedio el sistema en estabilizarse) se dirigirán hacia el centro, de manera que siempre haya muerte. Además, si solo queda un equipo, se ve mejor el ganador en el centro que disperso por el mundo.  
+Finalmente, después de gastarme todos mis intentos del plan pro de Gemini, conseguí lo que buscaba. La verdad, esa idea de amontonarlos a todos dio resultados bastante interesantes hacia el final de casi cada ejecución, por lo que no solo resolvió mi problema, sino que le dio más dinamismo a la simulación.  
+Quiero dejar aquí este resultado en específico, donde solo quedó una partícula de un equipo, lo que me pareció muy particular (no pun intended):  
+<img width="740" height="642" alt="image" src="https://github.com/user-attachments/assets/5a0d7136-237f-4a5d-9d93-3d65ec841de0" />  
+**El link:** https://editor.p5js.org/chepistacho/full/mFWxWVeSQ
+
 
 
 
