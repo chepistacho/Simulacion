@@ -56,4 +56,16 @@ Aquí aplico la misma lógica de antes, pero con el agujero negro en vez de la a
 
 Me quedo solo tirando beat. **04:23 - 04:32**
 
-Vuelvo a pasar el mouse por la mitad al ritmo de los 4 beats. **04:32 - 04:36**
+Vuelvo a pasar el mouse por la mitad al ritmo de los 4 beats. **04:32 - 04:36**  
+
+
+**El link**: https://chepistacho.github.io/Sim-U3/  
+
+## Mapa del sistema
+| Concepto | Qué es en este proyecto | Archivos |
+| :--- | :--- | :--- |
+| **Estado** | Es la memoria en la tarjeta gráfica donde guardamos la posición, la velocidad y el eje de rotación de cada una de las 131,072 partículas, esto para que el computador no se cuelgue procesando toda la información. | createSimulation.js, main.js |
+| **Fuerzas** | Son las reglas que empujan las partículas. En este caso sumamos varias: viento, un remolino tridimensional, fricción para frenarlas, atracción al centro (con una fuerza de rebote para que no colapsen en un solo punto), pulsos rítmicos y la atracción hacia el mouse. | createSimulation.js, parameters.js |
+| **Integración** | Es el motor que suma todas las fuerzas y calcula hacia dónde se tiene que mover la partícula en el siguiente frame. También limita la velocidad máxima y hace un efecto de portal: si una partícula sale de la pantalla, entra por el lado contrario. | createSimulation.js |
+| **Render** | Es la parte netamente visual. No calcula física, solo toma los datos y dibuja las partículas como puntos de luz. Además, usa la velocidad para definir el color: se pintan de azul si van lento y de naranja si van rápido. | createSimulation.js |
+| **Controles** | Es la interacción con el teclado. Los números del 1 al 7 activan combinaciones de fuerzas predefinidas (como la tormenta o el agujero negro), las flechas y teclas B/N/V lanzan efectos de ritmo, y la barra espaciadora activa el atractor del mouse | main.js |
