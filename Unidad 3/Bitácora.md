@@ -79,4 +79,15 @@ Vuelvo a pasar el mouse por la mitad al ritmo de los 4 beats. **04:32 - 04:36**
 | **Fricción (Drag)** | Opuesta a la velocidad: -v * dragCoefficient | dragCoefficient, dragEnabled | Las partículas pierden energía cinética gradualmente, frenando su desplazamiento y cerrando sus órbitas. | Fundamental para la estabilidad numérica del sistema. Disipa el momento angular residual al cambiar de *presets*, evitando que las velocidades se acumulen infinitamente. |
 | **Ráfaga (Burst)** | Empuje radial saliente acotado por un cono (smoothstep) | BURST_STRENGTH (fija=10), BURST_CONE, top/bottomBurst | Exclusivamente las partículas ubicadas en los polos geométricos reciben un impulso hacia afuera, generando una protuberancia direccional. | Se le asignó una magnitud fija independiente de la distancia para evitar que la fuerza se diluya. Se usa smoothstep para difuminar los bordes del cono, logrando un empuje orgánico y sin cortes duros. |
 | **Pulso (Beat)** | Empuje radial saliente: dir_radial * BEAT_STRENGTH * fase | BEAT_STRENGTH (fija=12), beatPhase (+1, -1, 0) | El sistema entero se expande bruscamente desde el centro y luego se contrae sincrónicamente, simulando un latido. | Al ser una fuerza estrictamente radial, no inyecta momento angular indeseado al sistema. Su magnitud también es fija para garantizar que el pulso sea visible sin importar qué *preset* esté activo. |
-| **Atractor Mouse** | dir_mouse * (mouseStrength / d²) | mousePos, mouseStrength, mouseActive | Al presionar Espacio, las partículas modifican su trayectoria para orbitar o impactar la proyección 2D del cursor del usuario. | Introduce una capa de interacción tipo *live instrument* sobre la física base. Actúa de manera independiente al atractor central para permitir órbitas excéntricas e impredecibles. |
+| **Atractor Mouse** | dir_mouse * (mouseStrength / d²) | mousePos, mouseStrength, mouseActive | Al presionar Espacio, las partículas modifican su trayectoria para orbitar o impactar la proyección 2D del cursor del usuario. | Introduce una capa de interacción tipo *live instrument* sobre la física base. Actúa de manera independiente al atractor central para permitir órbitas excéntricas e impredecibles. |  
+
+## Autoevaluación
+| Criterio | Peso | Justificación | Valoración |
+| :--- | :--- | :--- | :--- |
+| **Trazabilidad y comprensión del sistema** | 25 | Falta de conceptualización. | 3.5 |
+| **Verificación del algoritmo de fuerzas** | 25 | Entiendo parte de la arquitectura, pero la mayoría me queda grande. | 3.5 |
+| **Diseño de fuerzas e intención** | 20 | Todo es a base de las físicas de las partículas. No hay nada definido en cuanto a sus movimientos exactos. | 5.0 |
+| **Instrumento, score e interpretación** | 15 | Todos los movimientos son con intención. Practiqué los movimientos de controles para que se muevan como yo indico y no como la música lo dicta. | 5.0 |
+| **Experimentación y criterio frente a la IA** | 10 | Sí registré hallazgos y experimentación, pero casi que lo único que descarté fue cuando el sistema ya no funcionaba (pantalla negra/una sola partícula). | 4.5 |
+| **Entrega técnica y documentación** | 5 | Cumple. | 5.0 |
+| **Total Puntos** | **100** |  | **4.2** |
