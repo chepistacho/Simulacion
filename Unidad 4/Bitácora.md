@@ -3,3 +3,6 @@ Mi idea para este encargo fue basarme en la estética de Silicon Dreams, que tan
 <img width="700" height="523" alt="image" src="https://github.com/user-attachments/assets/70e84cd3-05d5-42c2-8dd3-09c2609aa359" />  
 <img width="516" height="387" alt="image" src="https://github.com/user-attachments/assets/783e2400-e044-49fd-a7ae-6ea179c0f8d2" />  
 Puse 8 figuras, cada una con su respectivo color y tempo, el cual, al completar un ciclo, hace que suelten unos "anillos". También, en la parte de abajo, puse un slider que permite que se sincronicen estos ciclos. En la parte superior hay un panel con la imagen de cada figura, que permite modificar el tempo de cada una con un slider aparte.
+## El Link
+https://editor.p5js.org/chepistacho/full/yTTqtRreZ
+
