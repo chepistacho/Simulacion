@@ -19,6 +19,9 @@ Si bien tienen la misma forma y tamaño, su comportamiento siempre es distinto, 
 12. Vuelven a aparecer las partículas viejas, y ahora, entre las jóvenes y las viejas, forman la silueta del forum
 13. Repetimos la misma simulación de la diapositiva anterior
 
+## Link:
+https://chepistacho.github.io/ForumPresentation/
+
 ## Autoevaluación:
 | Criterio | Descripción | Nota |
 | :--- | :--- | :--- |
