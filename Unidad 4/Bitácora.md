@@ -6,3 +6,11 @@ Puse 8 figuras, cada una con su respectivo color y tempo, el cual, al completar 
 ## El Link
 https://editor.p5js.org/chepistacho/full/yTTqtRreZ
 
+## Autoevaluación: 
+| Criterio | Descripción | Porcentaje | Nota |
+| :--- | :--- | :--- | :--- |
+| **1. Requisitos mínimos**[cite: 3] | Leí y verifiqué que mi proyecto cumple con los requisitos mínimos de la unidad.[cite: 3] | 25%[cite: 3] | 5.0 |
+| **2. Variables del modelo**[cite: 3] | Puedo explicar claramente qué representa cada variable del modelo de Kuramoto en mi proyecto.[cite: 3] | 25%[cite: 3] | 5.0 |
+| **3. Producción de comportamiento**[cite: 3] | Puedo explicar claramente cómo las variables del modelo producen el comportamiento observado en mi proyecto.[cite: 3] | 25%[cite: 3] | 5.0 |
+| **4. Objetivos de la unidad**[cite: 3] | Puedo demostrar que mi proyecto cumple con los objetivos establecidos en la unidad.[cite: 3] | 25%[cite: 3] | 5.0 |
+| **Total** | | **100%** | **5.0** |
