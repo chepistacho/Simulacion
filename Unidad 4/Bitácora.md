@@ -4,5 +4,13 @@ Mi idea para este encargo fue basarme en la estética de Silicon Dreams, que tan
 <img width="516" height="387" alt="image" src="https://github.com/user-attachments/assets/783e2400-e044-49fd-a7ae-6ea179c0f8d2" />  
 Puse 8 figuras, cada una con su respectivo color y tempo, el cual, al completar un ciclo, hace que suelten unos "anillos". También, en la parte de abajo, puse un slider que permite que se sincronicen estos ciclos. En la parte superior hay un panel con la imagen de cada figura, que permite modificar el tempo de cada una con un slider aparte.
 ## El Link
-https://editor.p5js.org/chepistacho/full/yTTqtRreZ
+https://chepistacho.github.io/Kuramoto/
 
+## Autoevaluación: 
+| Criterio | Descripción | Porcentaje | Nota |
+| :--- | :--- | :--- | :--- |
+| **1. Requisitos mínimos**[cite: 3] | Leí y verifiqué que mi proyecto cumple con los requisitos mínimos de la unidad.[cite: 3] | 25%[cite: 3] | 5.0 |
+| **2. Variables del modelo**[cite: 3] | Puedo explicar claramente qué representa cada variable del modelo de Kuramoto en mi proyecto.[cite: 3] | 25%[cite: 3] | 5.0 |
+| **3. Producción de comportamiento**[cite: 3] | Puedo explicar claramente cómo las variables del modelo producen el comportamiento observado en mi proyecto.[cite: 3] | 25%[cite: 3] | 5.0 |
+| **4. Objetivos de la unidad**[cite: 3] | Puedo demostrar que mi proyecto cumple con los objetivos establecidos en la unidad.[cite: 3] | 25%[cite: 3] | 5.0 |
+| **Total** | | **100%** | **5.0** |
