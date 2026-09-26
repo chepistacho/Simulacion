@@ -1,8 +1,25 @@
-# Encargo de diseño  
-Mi idea para este encargo fue basarme en la estética de Silicon Dreams, que tanto marcó el diseño 3D en la época de los 90 y los 2000. Para esto quise recrear la idea del software Bryce 3D, que fue uno de los que más aportó a esta época del diseño 3D. Además, con el fin de lograr esta estética tan marcada, me incliné por el uso de primitivas y formas básicas, usando materiales que se vieran "plasticosos".  
-<img width="700" height="523" alt="image" src="https://github.com/user-attachments/assets/70e84cd3-05d5-42c2-8dd3-09c2609aa359" />  
-<img width="516" height="387" alt="image" src="https://github.com/user-attachments/assets/783e2400-e044-49fd-a7ae-6ea179c0f8d2" />  
-Puse 8 figuras, cada una con su respectivo color y tempo, el cual, al completar un ciclo, hace que suelten unos "anillos". También, en la parte de abajo, puse un slider que permite que se sincronicen estos ciclos. En la parte superior hay un panel con la imagen de cada figura, que permite modificar el tempo de cada una con un slider aparte.
-## El Link
-https://editor.p5js.org/chepistacho/full/yTTqtRreZ
-
+# Encargo de diseño
+La verdad, esta es una de las unidades que más me ha interesado hasta el momento, por lo que decidí empezar a trabajarle (aunque sea a la idea) desde ya.  
+Lo primero que hice fue seleccionar unas canciones que, por un motivo u otro, me llamaban la atención para realizar este ejercicio, las cuales fueron:
+- Nocturnalized - Pär Hagström
+- Why can't this night go on forever - Journey
+- Constelación - Ramma
+- eCLIPSE sOLAR - Duki
+- Otro Amanecer - Delaossa
+- Never Love You Again - Post Malone
+- Breathe Me - SIA
+- Como Estrellas - LA YOUNG
+- lady madrizZz - céro
+- Perfect Circle / Godspeed (solo Godspeed) - Mac Miller
+Después de esto, me quedé con un total de 3 canciones que, después de hacer algunos ensayos con los algoritmos, veré cuál puede ser mi mejor opción.
+Los tres temas fueron:
+- Nocturnalized
+- Constelación
+- Godspeed
+Tenía demasiadas ganas de hacer algo con el tema de Journey, pero no fui capaz de conectar mi idea con los algoritmos de la unidad, por lo que decidí mejor dejarlo para luego.
+Antes de empezar a idear, decidí que lo mejor era pedirle a la IA un modelo básico de cada algoritmo, de forma que pueda decidir qué comportamientos y parámetros me pueden servir para desarrollar una idea acorde.
+## Ensayos
+### Nocturnalized
+Es un tema con una energía bastante imponente que, aunque tiene un tempo algo lento, se siente pesado. Para este, decidí usar Interactive Physarum, apoyándome de una transformada de Fourier para que le diera dinamismo a la zancada. Después de jugar un rato con algunos parámetros, dio unos resultados interesantes, pero aún se sentían como un algoritmo genérico.  
+### Constelación
+Un tema menos imponente, pero más rápido. Habla de una relación desde un punto de vista un poco más crudo, con agradecimiento hacia la otra persona, usando las estrellas como metáfora (no sé qué tan conectado esté realmente, pero igual qué temazo).
