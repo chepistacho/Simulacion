@@ -66,3 +66,10 @@ La asignación de botones quedó de la siguiente manera:
 https://chepistacho.github.io/Constelacion/
 
 ## Autoevaluación
+| Apartado | Calificación | Justificación |
+| :--- | :--- | :--- |
+| **Cumplimiento del encargo** | 5.0 | El instrumento opera nativamente en la web utilizando Three.js y WebGL. Procesa todo el sistema de partículas en tiempo real manteniendo 60 FPS e integra la Web Audio API para reaccionar a las frecuencias de la pista musical. |
+| **Comprensión y verificación** | 3.0 | Si bien los conceptos los entiendo a nivel de comportamiento (sé qué hace cada algoritmo), todavía me cuesta entender la parte matemática y de programación.|
+| **Diseño e intención** | 5.0 | Los 26 estados diseñados traducen milimétricamente la narrativa de la letra a lógicas de código. Decisiones como usar el espacio negativo para representar el vacío o colisiones elásticas para la protección están sólidamente justificadas por el arco emocional. |
+| **Interpretación humana** | 5.0 | Practiqué bastante el funcionamiento del instrumento, y siento que no solo logra plasmar la letra, sino que el apartado visual, al menos a mi criterio, quedó bastante bonito. |
+| **Total ponderado** | **4.5** |  |
