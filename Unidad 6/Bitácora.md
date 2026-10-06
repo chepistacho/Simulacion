@@ -61,3 +61,8 @@ La asignación de botones quedó de la siguiente manera:
 | **K** | Contradicción vectorial. Las partículas se orientan y hacen el esfuerzo de subir, pero un campo de fuerza dominante las arrastra lentamente hacia abajo. |
 | **R** | Movimiento browniano a máxima velocidad. Las partículas cambian de dirección de manera caótica e impredecible sin formar conexiones. |
 | **T** | Reducción progresiva e interpolada de la velocidad hasta la detención total, combinada con un desvanecimiento simultáneo de la visibilidad. |. 
+
+## El link
+https://chepistacho.github.io/Constelacion/
+
+## Autoevaluación
