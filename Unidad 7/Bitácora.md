@@ -18,4 +18,11 @@ Tengo una idea clara (casi), pero necesito cargarla de más significado y/o inte
 ### Domino's
 Este es algo más literal jugando con el nombre y logo de la marca. La idea sería crear 7 simulaciones (una por cada letra de la palabra) de "fichitas de dominó", las cuales vayan revelando el nombre de **Domino's"**.
 ### Blender
-Una licuadora (necesito pensar en algo más).
+Una licuadora a la que le pueda meter objetos (las letras modificadas) que representen la versatilidad de este programa.
+- B: básica, representando el modelado
+- L: Con detalles raros, representando el esculpido (también podría poner un lápiz o una herramienta de esculpido).
+- E: Con la geometría visible y cortes rojos, que representen la edición de UVs.
+- N: Le pongo algunos movimientos para representar el rigging.
+- D: Le pongo un shader bien chimba hecho en el shader editor.
+- E: Le cuadro alguna modificación con geometry nodes.
+- R: Una cámara antigua sobre un trípode, que represente el renderizado.
