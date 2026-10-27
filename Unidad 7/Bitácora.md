@@ -26,3 +26,15 @@ Una licuadora a la que le pueda meter objetos (las letras modificadas) que repre
 - D: Le pongo un shader bien chimba hecho en el shader editor.
 - E: Le cuadro alguna modificación con geometry nodes.
 - R: Una cámara antigua sobre un trípode, que represente el renderizado.
+
+## Ya en práctica
+Al final hubo un par de cambios; la B mostraba una extrusión, la L sí fue esculpido, pero mediante pintado de normales, la E muestra una animación en 2D hecha directamente sobre las UVs y sus cortes. El resto quedó igual.
+## Autoevaluación
+| Criterio | Puntaje | Justificación |
+|---|---|---|
+| Cumplimiento del encargo | 25 | Siento que, desde lo que definimos como "jugar" en esta unidad, el encargo fue cumplido |
+| Comprensión y verificación | 20 | Si bien no hay tantos estados que se puedan modificar (todo está muy preestablecido), sí está todo bien pensado |
+| Interacción e identidad | 25 | Todo el concepto está bien planificado y documentado en la bitácora |
+| Resolución tipográfica y experiencia de juego | 20 | Vuelve y juega, debido a la falta de modificaciones que puede hacer el usuario, la fase de exploración se limita a lo que la UI te pide hacer. |
+
+**Nota final**: 4.5
